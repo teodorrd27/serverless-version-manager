@@ -4,8 +4,9 @@
   "description": "Enable the usage of serverless-aws-alias-v3 as a domain oriented serverless API versioning system",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
-    "build": "tsc",
+    "build": "tsup",
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +15,7 @@
   "devDependencies": {
     "@types/serverless": "^3.12.27",
     "aws-sdk": "^2.1692.0",
+    "tsup": "^8.5.0",
     "typescript": "^5.0.0"
   },
   "peerDependencies": {
