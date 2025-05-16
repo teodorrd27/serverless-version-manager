@@ -1,5 +1,5 @@
 {
-  "name": "serverless-version-manager",
+  "name": "@teodorrd27/serverless-version-manager",
   "version": "0.1.0",
   "description": "Enable the usage of serverless-aws-alias-v3 as a domain oriented serverless API versioning system",
   "main": "dist/index.js",
@@ -18,5 +18,21 @@
   "peerDependencies": {
     "serverless": ">=3.38",
     "serverless-aws-alias-v3": ">=3.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teodorrd27/serverless-version-manager.git"
+  },
+  "keywords": [
+    "serverless",
+    "version",
+    "manager",
+    "serverless",
+    "version",
+    "manager"
+  ],
+  "bugs": {
+    "url": "https://github.com/teodorrd27/serverless-version-manager/issues"
+  },
+  "homepage": "https://github.com/teodorrd27/serverless-version-manager#readme"
 }
