@@ -1,0 +1,22 @@
+{
+  "name": "serverless-version-manager",
+  "version": "0.1.0",
+  "description": "Enable the usage of serverless-aws-alias-v3 as a domain oriented serverless API versioning system",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iuliu Teodor Radu",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/serverless": "^3.12.27",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "serverless": ">=3.38",
+    "serverless-aws-alias-v3": ">=3.2.0"
+  }
+}
