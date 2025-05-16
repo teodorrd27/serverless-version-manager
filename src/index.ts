@@ -222,4 +222,4 @@ class VersionManager {
   }
 }
 
-export default VersionManager
+module.exports = VersionManager
